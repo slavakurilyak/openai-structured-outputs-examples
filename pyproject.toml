@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "openai-structured-outputs-examples"
+version = "0.1.0"
+description = ""
+authors = ["slavakurilyak <hello@slavakurilyak.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.9.2"
+python-dotenv = "^1.0.1"
+openai = "^1.52.2"
+rich = "^13.9.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
